@@ -745,24 +745,24 @@ def main():
             )
             
             # Add explanation for Escalation/De-escalation Clause
-            with st.expander("What is an Escalation/De-escalation Clause?"):
-                st.markdown("""
-                **Escalation Clause**: Allows price increase if costs (materials, labor, etc.) rise significantly during contract period.
+            # with st.expander("What is an Escalation/De-escalation Clause?"):
+            #     st.markdown("""
+            #     **Escalation Clause**: Allows price increase if costs (materials, labor, etc.) rise significantly during contract period.
                 
-                **De-escalation Clause**: Allows price decrease if costs fall significantly during contract period.
+            #     **De-escalation Clause**: Allows price decrease if costs fall significantly during contract period.
                 
-                **Why use it?**
-                - For long-term contracts with volatile market conditions
-                - Protects suppliers from unexpected cost increases
-                - Protects buyers from overpaying when costs decrease
-                - Makes contracts fairer for both parties
+            #     **Why use it?**
+            #     - For long-term contracts with volatile market conditions
+            #     - Protects suppliers from unexpected cost increases
+            #     - Protects buyers from overpaying when costs decrease
+            #     - Makes contracts fairer for both parties
                 
-                **How it works:**
-                - Specifies which costs can be adjusted
-                - Defines how price changes are calculated
-                - Sets thresholds for when adjustments apply
-                - May limit maximum price changes
-                """)
+            #     **How it works:**
+            #     - Specifies which costs can be adjusted
+            #     - Defines how price changes are calculated
+            #     - Sets thresholds for when adjustments apply
+            #     - May limit maximum price changes
+            #     """)
             
             st.session_state.data['evaluation_methodology'] = st.selectbox(
                 "Evaluation Methodology",
